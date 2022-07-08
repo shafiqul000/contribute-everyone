@@ -2,21 +2,27 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
 
     font-family: 'Poppins', sans-serif;
-   
 
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+    background-color: #F2F3F4;
+    
 }
 .top-banner{
    
-    background-image: url(images/donation13.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/donation13.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: fixed;
     background-size: cover;
-    
+    margin-right:100%;
     height: 100vh;
+    width: 100%;
 }
 
 
@@ -83,7 +89,7 @@ body{
     border-radius: 7px;
     
 }
-    
+
 .tk1000{
     display: inline-block;
     margin: 1px;
@@ -121,6 +127,24 @@ body{
     border-radius: 7px;
     
 }
+
+.amount{
+    text-align: center;
+
+}
+
+
+hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+
+.donate-nowbtn{
+
+    text-align: center;
+}
 .div-decoration3{
 
     width: 100%;
@@ -128,5 +152,104 @@ body{
     
     text-align: center;
 }
+.donate-today-org{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid none;
+    padding: 1%;
+    width: 300px;
+    height: 200px;
+    align-items: left;
+    border-radius: 10px;
+
+}
+.bg-color1{
+
+    background-color: #D6EAF8;
+
+}
+.bg-color2{
+
+    background-color: #FBEEE6;
+
+}
+.bg-color3{
+
+    background-color:#FAD7A0 ;
+
+}
+.div-decoration3{
+    text-align: center;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+   
+    height: fit-content;
+    width: 50%;
+    padding: 4%;
+}
+.flexibleh1{
+
+    font-size: 250%;
+    color: #A93226;
+}
+.update-border{
+
+    
+    border: 10px solid none;
+    background-color: #FAE5D3;
+    height: 210px;
+    width: 650px;
+    text-align: center;
+    margin-left: 28%;
+    
+}
+
+
+.email-sub{
+    text-align: center;
+    position:center;
+    height: 30px;
+    padding: 16% 9%;
+    
+
+
+}
+.subscibe{
+    
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 0px;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    background-color: #A93226;
+    display: inline;
+    margin-left: -5px;
+    padding: 7.5px 11px;
+    width: 50%;
+    
+}
+
+.email{
+    height: 40px;
+    width: 50%;
+}
+footer{
+
+    background-color: #0F033C;
+    
+    margin-top: 15px;
+}
+.footer{
+     padding: 40px;
+     color: #ffffff;
+     text-align: center;
+}
+
+
+
 
 
